@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WEB_API___Modelo_1.Models
 {
-    public class TodoItem
+    public class Item
     {
         public long Id { get; set; }
         public string Name { get; set; }

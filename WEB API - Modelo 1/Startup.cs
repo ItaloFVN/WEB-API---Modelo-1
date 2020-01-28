@@ -21,7 +21,7 @@ namespace WEB_API___Modelo_1
         public void ConfigureServices(IServiceCollection services)
         {
             
-             services.AddDbContext<TodoContext>(opt =>
+             services.AddDbContext<Contexto>(opt =>
                opt.UseInMemoryDatabase("TodoList"));
             services.AddControllers();
         }
